@@ -141,7 +141,7 @@ html {
 .navbar-brand {
     position: absolute;
     top: -23px;
-    z-index: 9;
+    z-index: 99999;
 }
 .navbar-brand img {
   max-height: 292px;
@@ -251,7 +251,7 @@ html {
     width: 61px;
     position: fixed;
     right: 10px;
-    top: 65px;
+    top: 70px;
     z-index: 99;
 }
 .social-icons li { 
