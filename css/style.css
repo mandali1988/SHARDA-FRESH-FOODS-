@@ -9,6 +9,7 @@ body {
 .montserrat {
   font-family: "Montserrat", sans-serif; 
 }
+main{ overflow: hidden;}
 /* Container as per PSD */
 /* Base container */
 .container {
