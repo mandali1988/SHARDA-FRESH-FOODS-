@@ -1,0 +1,16 @@
+@import url("https://p.typekit.net/p.css?s=1&k=des2vlp&ht=tk&f=6808.6846&a=401110019&app=typekit&e=css");
+
+@font-face {
+font-family:"myriad-pro-condensed";
+src:url("https://use.typekit.net/af/d700cb/00000000000000007735d8fd/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/d700cb/00000000000000007735d8fd/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/d700cb/00000000000000007735d8fd/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"myriad-pro";
+src:url("https://use.typekit.net/af/ae1cce/00000000000000007735d918/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/ae1cce/00000000000000007735d918/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/ae1cce/00000000000000007735d918/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+.tk-myriad-pro-condensed { font-family: "myriad-pro-condensed",sans-serif; }
+.tk-myriad-pro { font-family: "myriad-pro",sans-serif; }
