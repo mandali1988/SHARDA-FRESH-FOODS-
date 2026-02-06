@@ -183,7 +183,7 @@ html {
 }
 /* Hero */
 .hero-section {
-  position: relative;
+  position: relative;z-index: 999;
 }
 
 .heroSwiper,
@@ -252,7 +252,7 @@ html {
     position: fixed;
     right: 10px;
     top: 65px;
-    z-index: 9999;
+    z-index: 99;
 }
 .social-icons li { 
     width: 61px;
