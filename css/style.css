@@ -230,7 +230,7 @@ html {
     padding-top: 100px;
 }
 .welcome-grain-in img {
-    top: 80px;  
+    top: 70px;  max-width: 467px;
 }
 .welcome-grain-section:before {
     content: "";
@@ -244,6 +244,7 @@ html {
     z-index: -9;
     background-size: cover;
 }
+.main-img{max-width: 600px;width: 100%;}
 .social-icons {
     background-image: url(../images/social-img.png);
     list-style: none;
