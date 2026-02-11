@@ -1,464 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <title>SHARDA FRESH FOODS</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Swiper -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-
-  <!-- Adobe Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://use.typekit.net/des2vlp.css">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/font.css">
-</head>
-
-<body>
-
-  <!-- ================= HEADER ================= -->
-  <header class="site-header">
-    <div class="container-custom">
-      <nav class="navbar navbar-expand-lg p-0 ">
-
-        <!-- Logo (Left) -->
-        <a class="navbar-brand" data-aos="fade-up" href="#">
+  <head>
+    <meta charset="UTF-8">
+    <title>SHARDA FRESH FOODS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <!-- Adobe Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/des2vlp.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+  </head>
+  <body>
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
+      <div class="container-custom">
+        <nav class="navbar navbar-expand-lg p-0 ">
+          <!-- Logo (Left) -->
+          <a class="navbar-brand" data-aos="fade-up" href="#">
           <img src="images/logo.png" alt="SHARDA FRESH FOODS logo">
-        </a>
-
-        <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
+          </a>
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
           <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Menu (Center) -->
-        <div class="collapse navbar-collapse justify-content-center" id="mainMenu">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+          </button>
+          <!-- Menu (Center) -->
+          <div class="collapse navbar-collapse justify-content-center" id="mainMenu">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+              <li class="nav-item"><a class="nav-link" href="product.html">Product</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- ================= HERO SLIDER ================= -->
+    <section class="hero-section" >
+      <div class="swiper heroSwiper">
+        <div class="swiper-wrapper" data-aos="fade-up">
+          <div class="swiper-slide">
+            <img src="images/banner.jpg" alt="Hero Slide 1">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/banner.jpg" alt="Hero Slide 2">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/banner.jpg" alt="Hero Slide 3">
+          </div>
+        </div>
+        <!-- Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- Dots -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <a href="#next-section" class="scroll-down" data-aos="fade-down">
+      <span class="arrow"></span>
+      </a>
+    </section>
+    <!-- Content Sections -->
+    <main>
+      <section class="position-relative"  id="next-section">
+        <div class="container">
+          <div class="row align-items-start">
+            <!-- LEFT CONTENT -->
+            <div class="col-lg-7">
+              <h2 class="title pt-5 mt-3" data-aos="fade-right">
+                WELCOME TO SHARDA FRESH FOODS
+              </h2>
+              <p class="content" data-aos="fade-right">
+                <strong>Why choose us?  </strong><br><br>
+                Advanced Manufacturing: Our products are made in a state-of-the-art, fully automated Turkish facility,
+                combining innovation with excellence.<br>
+                Nutrient Preservation: Our specialized machines operate at an intentionally slow pace to retain the
+                natural protein, vitamins, and essential nutrients of the ingredients.<br>
+                Premium Wheat Selection: We use carefully chosen wheat sourced from trusted regions. These high-quality
+                grains are stored in food-grade galvanized steel silos to preserve their wholesome goodness.
+              </p>
+              <a href="#" class="title border-0 text-decoration-none" data-aos="fade-right">VIEW MORE</a>
+            </div>
+            <!-- RIGHT IMAGE -->
+            <div class="col-lg-5 position-absolute mob-firstimg top-0 end-0 p-0 m-0" data-aos="fade-left">
+              <img src="images/Group_4517_1.png" class="img-fluid main-img" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="welcome-grain-section">
+        <div class="container">
+          <div class="row">
+            <div class="col position-relative">
+              <div class="welcome-grain-in">
+                <img src="./images/atta-img.png" class="position-absolute img-fluid" alt="" data-aos="zoom-in">
+                <h5 class="subtitle text-center" data-aos="fade-up">From Grains to </h5>
+                <h4 class="semi-title text-center" data-aos="fade-up">Soft & Delicious<br>Rotis</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col pt-5 mt-5 pb-5 mob-spc-red">
+              <h2 class="title mb-5" data-aos="fade-right"> Our Product</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="pre-product position-relative">
+                <div class="product-box " data-aos="fade-right">
+                  <img src="images/maida.png" alt="Rawa">
+                </div>
+                <img src="./images/magzidne-1.png" class="img-fluid pre-product-img" alt="" data-aos="zoom-in">
+                <div class="product-box" data-aos="fade-left">
+                  <img src="images/Dalia.png" alt="Rawa">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="swiper productSwiper"  data-aos="zoom-in-down">
+                <div class="swiper-wrapper">
+                  <!-- Slide 1 -->
+                  <div class="swiper-slide">
+                    <div class="product-box">
+                      <img src="images/rawa.png" alt="Rawa">
+                    </div>
+                  </div>
+                  <!-- Slide 2 -->
+                  <div class="swiper-slide">
+                    <div class="product-box">
+                      <img src="images/suji.png" alt="Suji">
+                    </div>
+                  </div>
+                  <!-- Slide 3 -->
+                  <div class="swiper-slide">
+                    <div class="product-box">
+                      <img src="images/atta-p.png" alt="Chakki Atta">
+                    </div>
+                  </div>
+                  <!-- Slide 4 -->
+                  <div class="swiper-slide">
+                    <div class="product-box">
+                      <img src="images/Bold-Suji.png" alt="Bold Suji">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="product-box">
+                      <img src="images/rawa.png" alt="Rawa">
+                    </div>
+                  </div>
+                </div>
+                <!-- Navigation -->
+                <div class="productSwiperbutton">
+                  <div class="swiper-button-prev">
+                    <span>&#129028;</span>
+                  </div>
+                  <div class="swiper-button-next"><span>&#129030;</span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="content" data-aos="fade-right"> Traditional Taste: Using traditional chakkis, we deliver the authentic aroma and flavor
+                of whole wheat Chakki Atta, reminiscent of tradition and freshness.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="position-relative">
+        <div class="container second-bg ">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="dishes-block">
+                <h4 class="text-uppercase fw-semibold pt-5 mt-5 pb-3 fs-1" data-aos="fade-right">We Want <br>
+                  To See Your dishes &<br>
+                  shardha bhog!
+                </h4>
+                <a href="#" data-aos="fade-right"><img src="./images/instbtn.jpg" alt="Instagram"></a>
+                <img src="./images/magzine-3.png" class="img-fluid dishes-block-ladyimg" alt="" data-aos="fade-left">
+              </div>
+            </div>
+            <div class="col-md-8">
+              <img src="./images/img.jpg" alt="" class="img-fluid" data-aos="fade-right">
+            </div>
+          </div>
+        </div>
+        <img src="./images/Sujiss-copy.png" alt="" class="img-fluid second-bg-pad" data-aos="fade-right">
+        </div>
+      </section>
+    </main>
+    <!-- ================= TESTIMONIAL SECTION ================= -->
+    <section class="testimonial-section">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2 class="title" data-aos="fade-up">Testimonial</h2>
+        </div>
+        <div class="swiper testimonialSwiper" data-aos="fade-up">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <h6>Rakesh Kumar</h6>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed do eiusmod tempor incididunt ut labore.
+                </p>
+                <div class="stars">
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span>★</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <h6>Rakesh Kumar</h6>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed do eiusmod tempor incididunt ut labore.
+                </p>
+                <div class="stars">
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span>★</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <h6>Rakesh Kumar</h6>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed do eiusmod tempor incididunt ut labore.
+                </p>
+                <div class="stars">
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span>★</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <h6>John Doe</h6>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed do eiusmod tempor incididunt ut labore.
+                </p>
+                <div class="stars">
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span>★</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <h6>John Doe</h6>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed do eiusmod tempor incididunt ut labore.
+                </p>
+                <div class="stars">
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span class="active">★</span>
+                  <span>★</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Navigation -->
+          <div class="testimonial-prev swiper-button-prev"></div>
+          <div class="testimonial-next swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter container">
+      <div class="newsletter-inner">
+        <!-- Left Illustration -->
+        <div class="newsletter-art" data-aos="fade-right">
+          <img src="./images/magzine-2.png" alt="Kitchen Illustration">
+        </div>
+        <!-- Right Content -->
+        <div class="newsletter-content" data-aos="fade-up">
+          <div class="top-line"></div>
+          <h2>GET ON THE LIST</h2>
+          <p>
+            Sign up our newsletter to stay updated with the news<br>
+            of our latest offers &amp; product releases
+          </p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <ul class="social-icons">
+      <li><a href="#1"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#2"><i class="fab fa-whatsapp"></i></a></li>
+      <li><a href="#3"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href="#4"><i class="fab fa-facebook-f"></i></a></li>
+    </ul>
+    <footer class="site-footer container" data-aos="fade-down">
+      <div class="row">
+        <!-- Logo & Address -->
+        <div class="position-relative  col-xl-7">
+          <div class="logoplustext">
+            <img src="images/footer-logo.png" alt="Sharda Bhog Logo" class="footer-logo">
+            <p class="footer-text content ps-3 pe-2 fs-4">
+              Customers and Consumers trusted us to provide tasty & quality
+              products with all relevant legislations.
+            </p>
+          </div>
+          <p class=" content fs-3 mb-0">
+            Address: Arazi No.1050-1052, Arazi No.1072 Visayakpur Rania,
+            Akbarpur Tehsil, Kanpur Dehat (U.P) 209304
+          </p>
+          <p class=" content mb-0">
+            PHONE NO.: +91-9519209223
+          </p>
+          <hr class="hr-thin">
+        </div>
+        <!-- Working Hours -->
+        <div class="footer-col col-lg-6 col-xl-3">
+          <h5 class="ps-4">Working Hours</h5>
+          <ul class="footer-list ps-4">
+            <li class="content">Mon : 10AM to 6PM</li>
+            <li class="content">Tue : 10AM to 6PM</li>
+            <li class="content">Wed : 10AM to 6PM</li>
+            <li class="content">Thu : 10AM to 6PM</li>
+            <li class="content">Fri : 10AM to 6PM</li>
+            <li class="content">Sat : 10AM to 6PM</li>
           </ul>
         </div>
-
-      </nav>
+        <!-- Quick Links -->
+        <div class="footer-col col-lg-6 col-xl-2">
+          <h5>Quick links</h5>
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row semi-footer">
+        <div class="col-lg-8">
+          <p class="fs-8 fw-normal fs-5 montserrat">&copy; Copyrights SHARDA FRESH FOODS PVT. LTD. All Rights Reserved</p>
+        </div>
+        <div class="col-lg-4 fs-5 text-right montserrat">
+          <p class="text-end">
+            <a href="#">Terms & Condtions</a> I <a href="#"> Privacy Policy</a> 
+          </p>
+        </div>
+      </div>
+      <!-- Bottom Bar -->
+    </footer>
+    <div class="footer-bottom pt-2"  >
+      <img src="./images/footerimg.png" class="img-fluid d-block" alt="">
     </div>
-  </header>
-
-
-  <!-- ================= HERO SLIDER ================= -->
-  <section class="hero-section" >
-    <div class="swiper heroSwiper">
-      <div class="swiper-wrapper" data-aos="fade-up">
-
-        <div class="swiper-slide">
-          <img src="images/banner.jpg" alt="Hero Slide 1">
-        </div>
-
-        <div class="swiper-slide">
-          <img src="images/banner.jpg" alt="Hero Slide 2">
-        </div>
-
-        <div class="swiper-slide">
-          <img src="images/banner.jpg" alt="Hero Slide 3">
-        </div>
-
-      </div>
-
-      <!-- Arrows -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-
-      <!-- Dots -->
-      <div class="swiper-pagination"></div> 
-    </div>
-    <a href="#next-section" class="scroll-down" data-aos="fade-down">
-        <span class="arrow"></span>
-      </a>
-  </section>
-
-  <!-- Content Sections -->
-  <main>
-    <section class="position-relative"  id="next-section">
-      <div class="container">
-        <div class="row align-items-start">
-
-          <!-- LEFT CONTENT -->
-          <div class="col-lg-7">
-            <h2 class="title pt-5 mt-3" data-aos="fade-right">
-              WELCOME TO SHARDA FRESH FOODS
-            </h2>
-
-
-            <p class="content" data-aos="fade-right">
-              <strong>Why choose us?  </strong><br><br>
-              Advanced Manufacturing: Our products are made in a state-of-the-art, fully automated Turkish facility,
-              combining innovation with excellence.<br>
-              Nutrient Preservation: Our specialized machines operate at an intentionally slow pace to retain the
-              natural protein, vitamins, and essential nutrients of the ingredients.<br>
-              Premium Wheat Selection: We use carefully chosen wheat sourced from trusted regions. These high-quality
-              grains are stored in food-grade galvanized steel silos to preserve their wholesome goodness.
-            </p>
-
-
-
-            <a href="#" class="title border-0 text-decoration-none" data-aos="fade-right">VIEW MORE</a>
-          </div>
-
-          <!-- RIGHT IMAGE -->
-          <div class="col-lg-5 position-absolute mob-firstimg top-0 end-0 p-0 m-0" data-aos="fade-left">
-            <img src="images/Group_4517_1.png" class="img-fluid main-img" alt="">
-          </div>
-
-        </div>
-      </div>
-
-    </section>
-    <section class="welcome-grain-section">
-      <div class="container">
-        <div class="row">
-          <div class="col position-relative">
-            <div class="welcome-grain-in">
-              <img src="./images/atta-img.png" class="position-absolute img-fluid" alt="" data-aos="zoom-in">
-              <h5 class="subtitle text-center" data-aos="fade-up">From Grains to </h5>
-              <h4 class="semi-title text-center" data-aos="fade-up">Soft & Delicious<br>Rotis</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col pt-5 mt-5 pb-5 mob-spc-red">
-            <h2 class="title mb-5" data-aos="fade-right"> Our Product</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="pre-product position-relative">
-              <div class="product-box " data-aos="fade-right">
-                <img src="images/maida.png" alt="Rawa">
-              </div>
-              <img src="./images/magzidne-1.png" class="img-fluid pre-product-img" alt="" data-aos="zoom-in">
-              <div class="product-box" data-aos="fade-left">
-                <img src="images/Dalia.png" alt="Rawa">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="swiper productSwiper"  data-aos="zoom-in-down">
-              <div class="swiper-wrapper">
-
-                <!-- Slide 1 -->
-                <div class="swiper-slide">
-                  <div class="product-box">
-                    <img src="images/rawa.png" alt="Rawa">
-                  </div>
-                </div>
-
-                <!-- Slide 2 -->
-                <div class="swiper-slide">
-                  <div class="product-box">
-                    <img src="images/suji.png" alt="Suji">
-                  </div>
-                </div>
-
-                <!-- Slide 3 -->
-                <div class="swiper-slide">
-                  <div class="product-box">
-                    <img src="images/atta-p.png" alt="Chakki Atta">
-                  </div>
-                </div>
-
-                <!-- Slide 4 -->
-                <div class="swiper-slide">
-                  <div class="product-box">
-                    <img src="images/Bold-Suji.png" alt="Bold Suji">
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="product-box">
-                    <img src="images/rawa.png" alt="Rawa">
-                  </div>
-                </div>
-              </div>
-
-              <!-- Navigation -->
-              <div class="productSwiperbutton">
-                <div class="swiper-button-prev">
-                  <span>&#129028;</span>
-                </div>
-                <div class="swiper-button-next"><span>&#129030;</span> </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p class="content" data-aos="fade-right"> Traditional Taste: Using traditional chakkis, we deliver the authentic aroma and flavor
-              of whole wheat Chakki Atta, reminiscent of tradition and freshness.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="position-relative">
-      <div class="container second-bg ">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="dishes-block">
-              <h4 class="text-uppercase fw-semibold pt-5 mt-5 pb-3 fs-1" data-aos="fade-right">We Want <br>
-                To See Your dishes &<br>
-                shardha bhog!</h4>
-              <a href="#" data-aos="fade-right"><img src="./images/instbtn.jpg" alt="Instagram"></a>
-              <img src="./images/magzine-3.png" class="img-fluid dishes-block-ladyimg" alt="" data-aos="fade-left">
-            </div>
-          </div>
-          <div class="col-md-8">
-            <img src="./images/img.jpg" alt="" class="img-fluid" data-aos="fade-right">
-          </div>
-        </div>
-      </div>
-      <img src="./images/Sujiss-copy.png" alt="" class="img-fluid second-bg-pad" data-aos="fade-right">
-      </div>
-    </section>
-  </main>
-
-  <!-- ================= TESTIMONIAL SECTION ================= -->
-  <section class="testimonial-section">
-    <div class="container">
-
-      <div class="section-heading text-center">
-        <h2 class="title" data-aos="fade-up">Testimonial</h2>
-      </div>
-
-      <div class="swiper testimonialSwiper" data-aos="fade-up">
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-            <div class="testimonial-card">
-              <h6>Rakesh Kumar</h6>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed do eiusmod tempor incididunt ut labore.
-              </p>
-              <div class="stars">
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span>★</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-card">
-              <h6>Rakesh Kumar</h6>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed do eiusmod tempor incididunt ut labore.
-              </p>
-              <div class="stars">
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span>★</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-card">
-              <h6>Rakesh Kumar</h6>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed do eiusmod tempor incididunt ut labore.
-              </p>
-              <div class="stars">
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span>★</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-card">
-              <h6>John Doe</h6>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed do eiusmod tempor incididunt ut labore.
-              </p>
-              <div class="stars">
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span>★</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-card">
-              <h6>John Doe</h6>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed do eiusmod tempor incididunt ut labore.
-              </p>
-              <div class="stars">
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span class="active">★</span>
-                <span>★</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <!-- Navigation -->
-        <div class="testimonial-prev swiper-button-prev"></div>
-        <div class="testimonial-next swiper-button-next"></div>
-
-      </div>
-
-    </div>
-  </section>
- 
-    <section class="newsletter container">
-  <div class="newsletter-inner">
-
-    <!-- Left Illustration -->
-    <div class="newsletter-art" data-aos="fade-right">
-      <img src="./images/magzine-2.png" alt="Kitchen Illustration">
-    </div>
-
-    <!-- Right Content -->
-    <div class="newsletter-content" data-aos="fade-up">
-      <div class="top-line"></div>
-
-      <h2>GET ON THE LIST</h2>
-      <p>
-        Sign up our newsletter to stay updated with the news<br>
-        of our latest offers &amp; product releases
-      </p>
-
-      <form class="newsletter-form">
-        <input type="email" placeholder="Enter your email">
-        <button type="submit">SUBSCRIBE</button>
-      </form>
-    </div>
-
-  </div>
-</section>
- 
-  <ul class="social-icons">
-    <li><a href="#1"><i class="fab fa-instagram"></i></a></li>
-    <li><a href="#2"><i class="fab fa-whatsapp"></i></a></li>
-    <li><a href="#3"><i class="fab fa-linkedin-in"></i></a></li>
-    <li><a href="#4"><i class="fab fa-facebook-f"></i></a></li>
-  </ul>
-<footer class="site-footer container" data-aos="fade-down">
-  <div class="row">
-
-    <!-- Logo & Address -->
-    <div class="position-relative  col-xl-7">
-      <div class="logoplustext">
-        <img src="images/footer-logo.png" alt="Sharda Bhog Logo" class="footer-logo">
-
-        <p class="footer-text content ps-3 pe-2 fs-4">
-          Customers and Consumers trusted us to provide tasty & quality
-          products with all relevant legislations.
-        </p>
-      </div>
-
-      <p class=" content fs-3 mb-0">
-       Address: Arazi No.1050-1052, Arazi No.1072 Visayakpur Rania,
-        Akbarpur Tehsil, Kanpur Dehat (U.P) 209304
-      </p>
-
-      <p class=" content mb-0">
-         PHONE NO.: +91-9519209223
-      </p>
-      <hr class="hr-thin">
-    </div>
-
-    <!-- Working Hours -->
-    <div class="footer-col col-lg-6 col-xl-3">
-      <h5 class="ps-4">Working Hours</h5>
-      <ul class="footer-list ps-4">
-        <li class="content">Mon : 10AM to 6PM</li>
-        <li class="content">Tue : 10AM to 6PM</li>
-        <li class="content">Wed : 10AM to 6PM</li>
-        <li class="content">Thu : 10AM to 6PM</li>
-        <li class="content">Fri : 10AM to 6PM</li>
-        <li class="content">Sat : 10AM to 6PM</li>
-      </ul>
-    </div>
-
-    <!-- Quick Links -->
-    <div class="footer-col col-lg-6 col-xl-2">
-      <h5>Quick links</h5>
-      <ul class="footer-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </div>
-
-  </div>
-<div class="row semi-footer">
-  <div class="col-lg-8">  
-    <p class="fs-8 fw-normal fs-5 montserrat">&copy; Copyrights SHARDA FRESH FOODS PVT. LTD. All Rights Reserved</p>
-  </div>
-  <div class="col-lg-4 fs-5 text-right montserrat">
-    <p class="text-end">
-      <a href="#">Terms & Condtions</a> I <a href="#"> Privacy Policy</a> 
-    </p>
-  </div>
-  
-</div>
-  <!-- Bottom Bar -->
-
-</footer>
-  <div class="footer-bottom pt-2"  >
-    <img src="./images/footerimg.png" class="img-fluid d-block" alt="">
-  </div>
-  <!-- Footer -->
- 
-  
- 
-
-  <!-- JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <script src="js/main.js"></script>
-
-</body>
-
+    <!-- Footer -->
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
