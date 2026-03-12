@@ -1,0 +1,2154 @@
+/*! purgecss start ignore */
+@media only screen and (min-width: 1200px) {
+    .MenuWrapper {
+        gap:25px
+    }
+
+    .MenuWrapper>ul>li {
+        margin: 0 20px 0 0
+    }
+
+    .MenuWrapper>ul>li>a {
+        font-size: 16px
+    }
+
+    .HasSubmenu .CommonSubmenu_1.Offerings {
+        min-width: 800px
+    }
+
+    .SlideMenuWrapper.open {
+        width: 25%
+    }
+
+    .SubMenuOverlay {
+        width: 25%;
+        right: -25%
+    }
+
+    .SubMenuOverlay.slide-out {
+        width: -25%
+    }
+
+    .tailoredscreens .rhscont {
+        padding: 0 40px
+    }
+
+    .tailoredscreens .rhscont>a.CommonGreenBtn {
+        margin-top: 70px;
+        font-size: 18px
+    }
+
+    .CommonTitle {
+        font-size: 40px
+    }
+
+    .TailoredMenus>li>a {
+        font-size: 18px
+    }
+
+    .TailoredMenus {
+        margin-top: 28px
+    }
+
+    .sihlofferlhs {
+        padding-left: 35px
+    }
+
+    .easytraderightsec .easytrademobimg {
+        bottom: -65px
+    }
+
+    .EasyTradeWithSIHLWrapper {
+        padding: 65px 35px
+    }
+
+    .EasyTradeContent>h4>span {
+        font-size: 30px;
+        line-height: 36px
+    }
+
+    .EasyTradeContent>p {
+        font-size: 20px;
+        margin: 0 0 25px
+    }
+
+    .easytradelogo>em {
+        width: 80px;
+        height: 80px
+    }
+
+    .EasyTradeContent>h4 {
+        padding-bottom: 20px
+    }
+
+    .partnerwithsihlrightsec.EasyTradeContent>h4>span {
+        font-size: 33px;
+        line-height: 40px
+    }
+
+    .partnerwithsihlboxes .partnerwithsihlitems>p {
+        padding-top: 10px
+    }
+
+    .partnerwithsihlinnerwrap {
+        gap: 0;
+        padding: 150px 0
+    }
+
+    .partnerwithsihlboxes {
+        gap: 20px
+    }
+
+    .partnerwithsihlboxes .partnerwithsihlitems {
+        padding: 0 15px 30px
+    }
+
+    .partnerwithsihlboxes .partnerwithsihlitems>span {
+        font-size: 38px;
+        line-height: 43px
+    }
+
+    .partnerwithsihlboxes .partnerwithsihlitems>p {
+        font-size: 19px;
+        line-height: 27px
+    }
+
+    .partnerwithsihlrightsec.EasyTradeContent>p {
+        font-size: 18px;
+        line-height: 27px
+    }
+
+    .TradingFeaturesrightsec>h4 {
+        padding-bottom: 50px
+    }
+
+    .TradingFeaturesWrapper {
+        padding: 0 0 50px
+    }
+
+    .tradingfeaturescont.tradingfetseccont {
+        padding: 0 70px 0 0
+    }
+
+    .MenuFooter>ul>li>a {
+        font-size: 16px
+    }
+
+    .AddressFooter p {
+        font-size: 18px;
+        line-height: 25px
+    }
+
+    .addresscontactsec>div>a {
+        font-size: 18px;
+        line-height: 26px
+    }
+
+    .HomePageWrapper {
+        min-height: 650px
+    }
+
+    .HomePageWrapper .BannerContentWrapper>h3 {
+        font-size: 30px;
+        line-height: 35px
+    }
+
+    .HomePageWrapper .BannerContentWrapper>h2>span {
+        font-size: 60px;
+        line-height: 52px
+    }
+
+    .GetQuoteWrapper form>input[type=text] {
+        min-width: 200px
+    }
+
+    .HomePageWrapper .BannerSphereWrapper {
+        height: 600px
+    }
+
+    .HomePageWrapper .ipotab {
+        width: 103px;
+        height: 45px;
+        right: 430px;
+        top: 35px
+    }
+
+    .HomePageWrapper .wmtab {
+        width: 136px;
+        height: 97px;
+        right: 45px;
+        top: 85px
+    }
+
+    .HomePageWrapper .iatab {
+        width: 136px;
+        height: 97px;
+        right: 25px;
+        bottom: 160px
+    }
+
+    .HomePageWrapper .mfdtab {
+        width: 135px;
+        height: 97px;
+        right: 510px;
+        bottom: 190px
+    }
+
+    .HomePageWrapper .sttab {
+        width: 103px;
+        height: 97px;
+        right: 510px;
+        top: 155px
+    }
+
+    .HomePageWrapper .SphereTabsWrapper,.HomePageWrapper .sphere1 {
+        width: 600px;
+        height: 600px
+    }
+
+    .HomePageWrapper .hand {
+        width: 420px;
+        height: 468px;
+        right: 180px
+    }
+
+    .HomePageWrapper .BannerContentWrapper>p {
+        margin: 5px 0 70px
+    }
+
+    .InvestorssecBanner {
+        padding: 35px 0 0
+    }
+
+    .WhySIHLContent .WhySIHLBoxContent {
+        max-width: 320px
+    }
+
+    .WhySIHLContent .Comprehensive {
+        margin-left: 55px
+    }
+
+    .WhySIHLContent .WealthCreation {
+        margin-right: 55px
+    }
+
+    .WhySIHLContent .BlendingLegacy {
+        margin-left: -5px
+    }
+
+    .WhySIHLContent .Client {
+        margin-right: -5px
+    }
+
+    .WhySIHLBottomImage,.WhySIHLInner:after,.WhySIHLInner:before {
+        display: block
+    }
+
+    .BeyondWrksItem>.BeyondItemCntnt>p {
+        padding-right: 45px;
+        font-size: 17px;
+        line-height: 24px
+    }
+
+    .BeyondWrksItem>.Beyonditemimg {
+        max-width: 350px
+    }
+
+    .BeyondWrksItem.Beyondwrks>.BeyondItemCntnt {
+        padding: 0 20px
+    }
+
+    .Beyondhead>h5 {
+        font-size: 80px
+    }
+
+    .BeyondWrksItem.BeyondBusiness>.BeyondItemCntnt {
+        padding: 20px
+    }
+
+    .BeyondWrksItem>.BeyondItemCntnt>h4 {
+        font-size: 28px
+    }
+
+    .Beyondhead {
+        padding-top: 100px;
+        padding-left: 70px
+    }
+
+    .Beyondhead:after {
+        top: 30px
+    }
+
+    .BeyondBusinesswrapper {
+        padding: 100px 0 50px
+    }
+
+    .BeyondWrksItem.Beyondwrks {
+        gap: 45px
+    }
+
+    .TailorSolBox:after,.TailorSolBox:before {
+        width: 350px;
+        height: 350px;
+        bottom: -90px;
+        margin-left: -175px
+    }
+
+    .TailorSolBox em {
+        width: 300px
+    }
+
+    .TailorSolBox .TailorSolCont p {
+        font-size: 18px;
+        line-height: 26px;
+        max-width: 275px
+    }
+
+    .TailorSolBox .TailorSolCont h5 {
+        font-size: 25px;
+        line-height: 25px
+    }
+
+    .UnifiedBox {
+        gap: 30px
+    }
+
+    .UnifiedBox .LinksBox>h3 {
+        font-size: 22px;
+        line-height: 28px
+    }
+
+    .UnifiedBox .LinksBox>ul>li>a {
+        font-size: 19px;
+        line-height: 22px;
+        padding: 5px 0 5px 50px
+    }
+
+    .UnifiedBox>.Box3 .LinksBox {
+        padding: 0 25px
+    }
+
+    .UnifiedInnerWrapper,.UnifiedInnerWrapper .VideoBGHome,.UnifiedInnerWrapper .VideoBGHome video {
+        height: 870px
+    }
+
+    .UnifiedBox>.Box1 {
+        height: 670px
+    }
+
+    .UnifiedBox>.Box2 {
+        height: 890px
+    }
+
+    .UnifiedBox>.Box3 {
+        height: 550px
+    }
+
+    .UnifiedBox>.Box4 {
+        height: 695px
+    }
+
+    .UnifiedBox .CommonBoxCss:after {
+        top: 195px
+    }
+
+    .UnifiedBox .TopBox .IconBall {
+        transform: scale(1)
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .container,.fixHeader .container {
+        max-width:1200px!important
+    }
+
+    .HasSubmenu .CommonSubmenu_1.Offerings {
+        min-width: 860px
+    }
+
+    .HasSubmenu .CommonSubmenu_1.Support {
+        padding: 30px;
+        min-width: 500px
+    }
+
+    .HasSubmenu .CommonSubmenu_1.Support>li>a>span {
+        padding-right: 0
+    }
+
+    .HasSubmenu .CommonSubmenu_1.Support>li>a:hover>span:after {
+        right: -20px
+    }
+
+    .BlueShadeBox>h2 {
+        font-size: 20px
+    }
+
+    .BlueShadeBox>p {
+        font-size: 16px;
+        line-height: 23px
+    }
+
+    .easytraderightsec .easytrademobimg {
+        right: 30px
+    }
+
+    .easytradewithsihlleftsec {
+        gap: 30px
+    }
+
+    .partnerwithsihlrightsec.EasyTradeContent>h4>span {
+        font-size: 38px;
+        line-height: 43px
+    }
+
+    .partnerwithsihlboxes {
+        gap: 40px
+    }
+
+    .partnerwithsihlboxes .partnerwithsihlitems {
+        padding: 0 15px 60px
+    }
+
+    .TestimonialsWrapper .CommonTitle {
+        padding: 0 0 40px
+    }
+
+    .HomePageWrapper .BannerSphereWrapper {
+        height: 650px
+    }
+
+    .HomePageWrapper .mfdtab {
+        right: 540px
+    }
+
+    .HomePageWrapper .SphereTabsWrapper,.HomePageWrapper .sphere1 {
+        width: 650px;
+        height: 650px
+    }
+
+    .HomePageWrapper .hand {
+        width: 464px;
+        height: 548px
+    }
+
+    .GetQuoteWrapper form>input[type=text] {
+        min-width: 250px
+    }
+
+    .GetQuoteWrapper form>button {
+        font-size: 20px;
+        padding: 0 32px
+    }
+
+    .WhySIHLContent .WhySIHLBoxContent {
+        max-width: 400px
+    }
+
+    .WhySIHLContent .Comprehensive {
+        margin-left: 20px
+    }
+
+    .WhySIHLContent .WealthCreation {
+        margin-right: 20px
+    }
+
+    .WhySIHLContent .BlendingLegacy {
+        margin-left: -25px
+    }
+
+    .WhySIHLContent .Client {
+        margin-right: -55px
+    }
+
+    .TailorSolBox:after,.TailorSolBox:before {
+        width: 370px;
+        height: 370px;
+        bottom: -90px;
+        margin-left: -185px
+    }
+
+    .TailorSolBox em {
+        width: 350px
+    }
+
+    .TailorSolBox .TailorSolCont p {
+        font-size: 18px;
+        line-height: 26px
+    }
+
+    .TailorSolBox .TailorSolCont h5 {
+        font-size: 25px;
+        line-height: 25px
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        min-width:1280px!important
+    }
+
+    .sphere1 {
+        width: 700px;
+        height: 700px
+    }
+
+    .TestimonialsWrapper .TestimonialsContent {
+        font-size: 17px;
+        line-height: 25px
+    }
+
+    .TestimonialsWrapper .TestimonialPeople {
+        gap: 20px
+    }
+
+    .tradingfeaturesinnerwrapper {
+        justify-content: space-around
+    }
+
+    .footerlastlinksec>p,.footerregno>h5,.footertabsec>ul>li>a {
+        font-size: 16px;
+        line-height: 16px
+    }
+
+    .footerregno>p,.footertabcont .footertabitems>p {
+        font-size: 16px;
+        line-height: 25px
+    }
+
+    .WhySIHLContent .Comprehensive {
+        margin-left: 55px
+    }
+
+    .WhySIHLContent .WealthCreation {
+        margin-right: 55px
+    }
+
+    .WhySIHLContent .BlendingLegacy {
+        margin-left: 15px
+    }
+
+    .WhySIHLContent .Client {
+        margin-right: -5px
+    }
+
+    .BeyondWrksItem>.Beyonditemimg {
+        max-width: 370px
+    }
+
+    .BeyondWrksItem>.Beyonditemimg>img {
+        width: 350px
+    }
+
+    .underConstructionWrap {
+        min-height: 800px
+    }
+
+    .underConstructionCnt>h5 {
+        font-size: 55px;
+        line-height: 62px
+    }
+
+    .underConstructionCnt>h5>i {
+        font-size: 45px;
+        line-height: 50px
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .container {
+        min-width:1360px!important
+    }
+
+    .WhySIHLContent .Comprehensive {
+        margin-left: 100px
+    }
+
+    .WhySIHLContent .WealthCreation {
+        margin-right: 100px
+    }
+
+    .WhySIHLContent .BlendingLegacy {
+        margin-left: 55px
+    }
+
+    .WhySIHLContent .Client {
+        margin-right: 25px
+    }
+
+    .MenuWrapper>ul>li>a {
+        font-size: 18px
+    }
+
+    .TailorSolutionTradeHead h4 {
+        font-size: 40px;
+        line-height: 40px;
+        padding: 0 0 30px
+    }
+
+    .TailorSolBox .TailorSolCont h5 {
+        font-size: 27px;
+        line-height: 27px
+    }
+
+    .TailorSolBox .TailorSolCont p {
+        font-size: 19px;
+        line-height: 27px;
+        max-width: 285px
+    }
+
+    .TailorSolBox:after,.TailorSolBox:before {
+        width: 400px;
+        height: 400px;
+        margin-left: -200px
+    }
+
+    .TailorSolBox em {
+        width: 370px
+    }
+
+    .TailorSolInnerWrap {
+        gap: 100px
+    }
+
+    .UnifiedBox {
+        gap: 40px;
+        padding: 0 35px
+    }
+
+    .UnifiedBox>.Box1 .LinksBox {
+        padding: 0 30px
+    }
+
+    .UnifiedBox>.Box2 .LinksBox {
+        padding: 0 45px
+    }
+
+    .UnifiedBox>.Box3 .LinksBox {
+        padding: 0 35px
+    }
+
+    .UnifiedBox>.Box4 .LinksBox {
+        padding: 0 45px
+    }
+
+    .UnifiedInnerWrapper,.UnifiedInnerWrapper .VideoBGHome,.UnifiedInnerWrapper .VideoBGHome video {
+        height: 900px
+    }
+
+    .UnifiedBox>.Box1 {
+        height: 690px
+    }
+
+    .UnifiedBox>.Box2 {
+        height: 905px
+    }
+
+    .UnifiedBox>.Box3 {
+        height: 590px
+    }
+
+    .UnifiedBox>.Box4 {
+        height: 695px
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .fixHeader .container {
+        width:100%!important;
+        max-width: 100%!important
+    }
+
+    .fix .fixHeader,.fixHeader {
+        height: 110px
+    }
+
+    .fix .OldWebTopStrip {
+        top: 0
+    }
+
+    .fix .fixHeader .header {
+        top: 15px
+    }
+
+    .header>h1 {
+        width: 200px
+    }
+
+    .fix .SlideMenuWrapper {
+        padding: 130px 20px 20px 30px
+    }
+
+    .SlideMenuWrapper .MenuWrapper {
+        display: block
+    }
+
+    .SlideMenuWrapper.open {
+        width: 100%
+    }
+
+    .SlideMenuWrapper .MenuWrapper>ul>li>a>span {
+        left: auto;
+        right: 0
+    }
+
+    .SlideMenuWrapper .MenuWrapper>ul>li>a>span>i.fa-angle-right {
+        padding-left: 0;
+        padding-right: 20px;
+        color: #000
+    }
+
+    .fix .SubMenuOverlay {
+        top: 110px
+    }
+
+    .SubMenuOverlay {
+        display: block;
+        position: fixed;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        transition: all .5s ease;
+        overflow: auto;
+        padding: 25px;
+        z-index: 9995
+    }
+
+    .SubMenuOverlay.slide-in {
+        left: 0;
+        width: 100%;
+        padding-bottom: 70px
+    }
+
+    .HasSubmenu .CommonSubmenu_1.logindrpnew {
+        top: 38px
+    }
+
+    .mainWrapper {
+        margin-top: 110px
+    }
+
+    .fix .companySearchWrap {
+        top: 108px
+    }
+
+    .companySearchWrap {
+        padding: 30px 0;
+        height: 104px
+    }
+
+    .AddressFooter {
+        padding: 20px 0
+    }
+
+    .footertabsec {
+        padding: 15px 0 0
+    }
+
+    .footercoraddress {
+        text-align: left
+    }
+
+    .footerregno {
+        padding: 0 0 20px
+    }
+
+    .footerlastlinksec>p,.footertabsec>ul>li>a {
+        font-size: 14px
+    }
+
+    .footerregno,.footertabcont .footertabitems>p {
+        padding: 0 0 15px
+    }
+
+    .footerlastlinksec {
+        padding: 0
+    }
+
+    .footerlastlinksec>ul {
+        padding: 0 0 10px
+    }
+
+    .footerlastlinksec>p {
+        display: inline
+    }
+
+    .footerregno.textRightFooter {
+        text-align: left
+    }
+
+    .HomePageWrapper {
+        margin: 70px auto 0
+    }
+
+    .CommonTitle {
+        font-size: 32px
+    }
+
+    .CommonGraySubTitle {
+        font-size: 26px
+    }
+
+    .tailoredwrapper {
+        padding: 50px 0
+    }
+
+    .TailoredMenus>li>a {
+        font-size: 15px
+    }
+
+    .investmadeeasywrap {
+        margin-top: 40px
+    }
+
+    .tailoredscreens .lhsmobimg img {
+        width: 350px
+    }
+
+    .tailoredscreens .rhscont {
+        text-align: center;
+        margin-top: 20px
+    }
+
+    .tailoredscreens .rhscont>a.CommonGreenBtn {
+        margin: 30px auto 0
+    }
+
+    .sihlofferrhs,.tailoredscreens .rhscont>p {
+        text-align: center
+    }
+
+    .sihlofferrhs {
+        margin-bottom: 30px
+    }
+
+    .sihlofferrhs img {
+        width: 350px
+    }
+
+    .sihlofferwrapper {
+        padding: 50px 0
+    }
+
+    .EasyTradeWithSIHLWrapper {
+        margin: 40px 0
+    }
+
+    .easytradewithsihlleftsec {
+        gap: 15px
+    }
+
+    .easytradelogo>em {
+        width: 50px;
+        height: 50px
+    }
+
+    .EasyTradeContent .CommonSubTitle {
+        margin-bottom: 10px
+    }
+
+    .EasyTradeContent>h4>span {
+        font-size: 18px;
+        line-height: 26px
+    }
+
+    .EasyTradeContent>p {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .EasyTradeContent>a {
+        padding: 2px 25px;
+        font-size: 13px
+    }
+
+    .easytraderightsec .easytrademobimg {
+        width: 185px
+    }
+
+    .easytradewithsihlinnerwrp .EasyTradeContent .CommonSubTitle {
+        margin-bottom: 10px
+    }
+
+    .partnerwithsihlinnerwrap {
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        padding: 80px 0
+    }
+
+    .partnerwithsihlboxes .partnerwithsihlitems {
+        padding: 0 25px 30px 0
+    }
+
+    .partnerwithsihlboxes .partnerwithsihlitems>p {
+        display: inline-block;
+        padding-left: 5px
+    }
+
+    .TestimonialsWrapper {
+        padding: 50px 0
+    }
+
+    .TestimonialsWrapper .swiper {
+        padding: 0
+    }
+
+    .TestimonialsWrapper .TestimonialsContent {
+        padding: 20px 15px
+    }
+
+    .TradingFeaturesimg {
+        width: 350px;
+        margin: 0 auto
+    }
+
+    .TradingFeaturesleftsec {
+        padding-bottom: 50px
+    }
+
+    .TradingFeaturesrightsec>h4>span {
+        display: inline
+    }
+
+    .HomePageWrapper .BannerSphereWrapper {
+        margin: 50px 0 0
+    }
+
+    .HomePageWrapper .BannerContentWrapper>p {
+        margin: 5px 0 30px
+    }
+
+    .HomePageWrapper .hand {
+        right: 230px
+    }
+
+    .HomePageWrapper .SphereTabsWrapper,.HomePageWrapper .sphere1 {
+        left: 50%;
+        margin-left: -225px
+    }
+
+    .WhySIHLWrapper {
+        padding: 30px 0 0
+    }
+
+    .WhySIHLWrapper .CommonTitle {
+        font-size: 55px
+    }
+
+    .WhySIHLBottomImage {
+        display: none
+    }
+
+    .WhySIHLContent>div {
+        display: block
+    }
+
+    .WhySIHLInner:before {
+        display: none
+    }
+
+    .WhySIHLInner:after {
+        border: none;
+        border-left: 1px dashed var(--green);
+        border-radius: 0;
+        margin: 0;
+        left: 40px;
+        height: auto;
+        top: 50px;
+        bottom: 50px;
+        width: 1px
+    }
+
+    .WhySIHLContent .WhySIHLBoxContent {
+        max-width: -moz-fit-content;
+        max-width: fit-content;
+        margin: 0;
+        text-align: left
+    }
+
+    .WhySIHLContent .CompanyFinContent {
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 30px
+    }
+
+    .WhySIHLContent .CompanyFinContent>div {
+        text-align: left;
+        padding-top: 35px
+    }
+
+    .WhySIHLContent .BlendingLegacy,.WhySIHLContent .Comprehensive {
+        flex-direction: row-reverse
+    }
+
+    .WhySIHLContent .ContentLast,.WhySIHLContent .ContentMid {
+        flex-direction: column
+    }
+
+    .WhySIHLContent .BlendingLegacy,.WhySIHLContent .Client,.WhySIHLContent .Comprehensive,.WhySIHLContent .WealthCreation {
+        margin: 0 0 30px
+    }
+
+    .WhySIHLContent .ContentMid {
+        margin: 0
+    }
+
+    .WhySIHLContent .ContentLast,.WhySIHLContent .ContentMid {
+        align-items: flex-start
+    }
+
+    .WhySIHLInner:after {
+        display: block
+    }
+
+    .BeyondWrksItem.Beyondwrks>.BeyondItemCntnt,.WhySIHLWrapper .CommonTitle {
+        padding: 0
+    }
+
+    .BeyondWrksItem.BeyondBusiness>.BeyondItemCntnt {
+        padding: 20px 20px 0
+    }
+
+    .BeyondWrksItem>.Beyonditemimg {
+        max-width: 320px
+    }
+
+    .Beyondhead>h5>span {
+        display: inline-block;
+        transform: translate(0)
+    }
+
+    .Beyondhead>h4 {
+        font-size: 100px;
+        line-height: 1em;
+        transform: translateY(10px)
+    }
+
+    .Beyondsubhead>h4>span {
+        display: inline-block
+    }
+
+    .Beyondhead>h5 {
+        font-size: 54px
+    }
+
+    .Beyondsubhead {
+        padding: 25px 0 40px
+    }
+
+    .Beyondhead {
+        padding-top: 23px
+    }
+
+    .Beyondhead:after {
+        width: 180px;
+        height: 180px
+    }
+
+    .TailorSolTradeWrap {
+        padding: 50px 0
+    }
+
+    .TailorSolInnerWrap {
+        padding: 0
+    }
+
+    .TailorSolInnerWrap .swiper {
+        padding: 40px 0
+    }
+
+    .underConstructionWrap {
+        min-height: 400px
+    }
+
+    .underConstructionCnt>h5 {
+        font-size: 45px;
+        line-height: 52px
+    }
+
+    .underConstructionCnt>h5>i {
+        font-style: normal;
+        font-size: 35px;
+        line-height: 40px
+    }
+
+    .UnifiedInnerWrapper {
+        height: auto;
+        padding: 20px 0 25px
+    }
+
+    .UnifiedInnerWrapper>h2 {
+        font-size: 34px
+    }
+
+    .UnifiedBox .LinksBox>ul {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 8px 30px;
+        gap: 8px 30px;
+        padding: 25px
+    }
+
+    .UnifiedBox .LinksBox {
+        padding: 0
+    }
+
+    .UnifiedBox .LinksBox>ul>li>a {
+        font-size: 18px;
+        padding: 0 0 0 48px;
+        line-height: 35px
+    }
+
+    .UnifiedBox {
+        justify-content: left
+    }
+
+    .UnifiedBox .LinksBox .SmallText {
+        line-height: 10px
+    }
+
+    .UnifiedBox .LinksBox>ul>li:last-child {
+        margin-bottom: 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .PopupGetQuoteBg {
+        padding:0 20px
+    }
+
+    .PopupGetQuoteBg.GetQuoteWrapper form>span {
+        width: 15%
+    }
+
+    .PopupGetQuoteBg.GetQuoteWrapper form>button {
+        margin-top: 10px;
+        width: 100%;
+        padding: 0 15px
+    }
+
+    .MenuWrapper>ul>li {
+        margin: 0 5px 0 0
+    }
+
+    .header_Login.HasSubmenu .CommonSubmenu_1 {
+        left: -100%;
+        right: -100%
+    }
+
+    .header_OpenAnAccount {
+        display: none
+    }
+
+    .CommonTitle {
+        font-size: 30px;
+        line-height: 35px
+    }
+
+    .CommonGraySubTitle {
+        font-size: 22px;
+        margin: 8px 0
+    }
+
+    .BlueShadeBox {
+        margin: 10px 0
+    }
+
+    .FooterContent {
+        align-items: flex-start;
+        flex-direction: column
+    }
+
+    .FooterWrapper {
+        padding: 30px 0
+    }
+
+    .MenuFooter {
+        gap: 0;
+        min-width: 100%;
+        flex-direction: column
+    }
+
+    .BottomFooter {
+        justify-content: center;
+        gap: 5px;
+        padding: 25px 0
+    }
+
+    .addresscontactsec {
+        padding-top: 10px
+    }
+
+    .AddressFooter {
+        padding: 10px 0
+    }
+
+    .TestimonialsWrapper {
+        padding: 30px 0
+    }
+
+    .TestimonialsWrapper .TestimonialsContent {
+        padding: 10px 0
+    }
+
+    .TailoredMenus>li {
+        display: block;
+        margin: 0 0 15px
+    }
+
+    .TailoredMenus>li:last-child {
+        margin: 0
+    }
+
+    .tailoredscreens .rhscont>p {
+        font-size: 17px;
+        line-height: 26px
+    }
+
+    .tailoredscreens .lhsmobimg img {
+        width: 300px
+    }
+
+    .tailoredscreens .rhscont>a.CommonGreenBtn {
+        font-size: 16px;
+        line-height: 28px
+    }
+
+    .sihlofferrhs img {
+        width: 300px
+    }
+
+    .easytradewithsihlinnerwrp {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center
+    }
+
+    .easytraderightsec .easytrademobimg {
+        position: static;
+        margin: 0 auto
+    }
+
+    .EasyTradeWithSIHLWrapper {
+        margin: 30px 0;
+        padding: 50px 15px 0;
+        border-radius: 10px
+    }
+
+    .partnerwithsihlinnerwrap {
+        padding: 60px 0
+    }
+
+    .partnerwithsihlboxes {
+        gap: 0;
+        flex-direction: column;
+        align-items: baseline
+    }
+
+    .partnerwithsihlboxes .partnerwithsihlitems>span {
+        font-size: 25px;
+        line-height: 31px
+    }
+
+    .partnerwithsihlboxes .partnerwithsihlitems {
+        padding: 0 0 14px
+    }
+
+    .partnerwithsihlrightsec.EasyTradeContent>h4>span {
+        font-size: 25px;
+        line-height: 33px
+    }
+
+    .partnerwithsihlrightsec.EasyTradeContent>p>span {
+        display: inline
+    }
+
+    .partnerwithsihlrightsec.EasyTradeContent>a {
+        font-size: 14px
+    }
+
+    .TradingFeaturesWrapper {
+        padding: 0 0 20px
+    }
+
+    .tradingfetboxwrapper {
+        flex-direction: column
+    }
+
+    .tradingfeaturesbox,.tradingfeaturescont {
+        padding: 0 0 15px
+    }
+
+    .tradingfeaturesbox .tradingfeatcont>p {
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    .HomePageWrapper .BannerContentWrapper>p {
+        font-size: 16px;
+        line-height: 25px
+    }
+
+    .HomePageWrapper .BannerContentWrapper>h2>span {
+        font-size: 35px;
+        line-height: 38px
+    }
+
+    .HomePageWrapper .BannerContentWrapper>h3 {
+        font-size: 21px;
+        line-height: 33px
+    }
+
+    .HomePageWrapper .hand {
+        right: 50%;
+        margin-right: -100px;
+        width: 250px;
+        height: 297px
+    }
+
+    .HomePageWrapper .ipotab {
+        animation: none
+    }
+
+    .HomePageWrapper .iatab,.HomePageWrapper .wmtab {
+        right: 0;
+        animation: none
+    }
+
+    .HomePageWrapper .mfdtab,.HomePageWrapper .sttab {
+        right: 340px;
+        animation: none
+    }
+
+    .WhySIHLWrapper .CommonTitle {
+        font-size: 50px;
+        line-height: 1em
+    }
+
+    .WhySIHLWrapper {
+        padding: 20px 0 0
+    }
+
+    .BeyondWrksItem {
+        display: block;
+        padding: 30px 20px;
+        margin: 0 50px 30px!important
+    }
+
+    .BeyondWrksItem>.BeyondItemCntnt {
+        padding: 30px 0 0!important
+    }
+
+    .BeyondWrksItem>.Beyonditemimg {
+        margin: 0 auto
+    }
+
+    .Beyondhead>h4 {
+        font-size: 80px;
+        line-height: 1em
+    }
+
+    .Beyondhead>h5 {
+        font-size: 45px;
+        line-height: 1em
+    }
+
+    .Beyondsubhead {
+        padding: 20px 0 40px
+    }
+
+    .Beyondsubhead>h4 {
+        font-size: 30px;
+        line-height: 1em
+    }
+
+    .BeyondWrksItem.BeyondBusiness {
+        display: flex;
+        flex-direction: column-reverse
+    }
+
+    .BeyondWrksItem>.Beyonditemimg {
+        max-width: 370px
+    }
+
+    .BeyondWrksItem>.Beyonditemimg>img {
+        width: 370px
+    }
+
+    .BeyondWrksItem.BeyondBusiness>.BeyondItemCntnt {
+        padding: 0!important
+    }
+
+    .BeyondWrksItem>.Beyonditemimg {
+        max-width: 340px
+    }
+
+    .BeyondWrksItem>.Beyonditemimg>img {
+        width: 340px
+    }
+
+    .TailorSolutionTradeHead h4 {
+        font-size: 28px;
+        line-height: 28px;
+        padding: 0
+    }
+
+    .underConstructionCnt>h5 {
+        font-size: 35px;
+        line-height: 42px
+    }
+
+    .underConstructionCnt>h5>i {
+        font-size: 25px;
+        line-height: 28px
+    }
+
+    .UnifiedBox .LinksBox>ul {
+        grid-template-columns: repeat(1,1fr);
+        padding: 25px
+    }
+
+    .UnifiedInnerWrapper>h2 {
+        padding: 0 0 25px;
+        font-size: 28px
+    }
+
+    .UnifiedBox .LinksBox>ul>li {
+        margin-bottom: 0
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .SubMenuOverlay .MarketCategories>ul>li {
+        font-size:13px
+    }
+
+    .HasSubmenu .CommonSubmenu_1.logindrpnew>div {
+        overflow: auto;
+        height: 300px
+    }
+
+    .CommonTitle {
+        font-size: 26px;
+        line-height: 30px
+    }
+
+    .TailoredMenus>li>a {
+        padding: 10px
+    }
+
+    .TailoredMenus>li>a:after {
+        width: 30px;
+        height: 30px
+    }
+
+    .TailoredMenus>li>a:before {
+        border-right-width: 5px;
+        border-left-width: 5px;
+        border-top-width: 5px;
+        bottom: -5px
+    }
+
+    .tailoredscreens .lhsmobimg img {
+        width: 275px
+    }
+
+    .tailoredscreens .rhscont>h4 {
+        margin: 5px 0 20px
+    }
+
+    .tailoredscreens .rhscont>p {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tailoredscreens .rhscont>b {
+        font-size: 18px
+    }
+
+    .TailoredMenus>li {
+        margin: 0 0 10px
+    }
+
+    .TailoredMenus>li>a {
+        font-size: 14px
+    }
+
+    .sihlofferrhs img {
+        width: 275px
+    }
+
+    .sihlofferlhs>ul>li {
+        padding: 10px 10px 10px 40px
+    }
+
+    .sihlofferlhs>ul>li>a {
+        font-size: 18px;
+        padding: 6px 0
+    }
+
+    .sihlofferlhs>ul>li:before {
+        left: 7px;
+        top: 16px;
+        width: 20px;
+        height: 20px
+    }
+
+    .sihlofferlhs>ul>li>p {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .EasyTradeContent>h4>span {
+        font-size: 17px;
+        line-height: 24px;
+        display: inline
+    }
+
+    .EasyTradeContent>h4 {
+        padding-bottom: 10px
+    }
+
+    .EasyTradeContent>p {
+        font-size: 15px;
+        line-height: 21px;
+        margin: 0 0 15px
+    }
+
+    .PartnerwithSIHLWrapper {
+        margin: 20px 0
+    }
+
+    .partnerwithsihlinnerwrap {
+        padding: 45px 0
+    }
+
+    .partnerwithsihlboxes .partnerwithsihlitems>span {
+        font-size: 23px;
+        line-height: 29px
+    }
+
+    .partnerwithsihlboxes .partnerwithsihlitems>p {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .partnerwithsihlrightsec.EasyTradeContent>h4>span {
+        font-size: 21px;
+        line-height: 28px
+    }
+
+    .partnerwithsihlrightsec.EasyTradeContent>p {
+        font-size: 15px;
+        line-height: 21px
+    }
+
+    .TestimonialsWrapper {
+        padding: 20px 0
+    }
+
+    .TestimonialsWrapper .CommonTitle {
+        padding: 0 0 10px
+    }
+
+    .TradingFeaturesimg {
+        width: 250px
+    }
+
+    .HomePageWrapper .hand {
+        display: none
+    }
+
+    .HomePageWrapper .ipotab {
+        width: 90px;
+        height: 40px;
+        right: 100px;
+        top: -25px;
+        gap: 10px!important;
+        animation: none
+    }
+
+    .HomePageWrapper .wmtab {
+        width: 100px;
+        height: 85px;
+        right: 8px;
+        top: 35px;
+        animation: none
+    }
+
+    .HomePageWrapper .iatab {
+        right: -5px
+    }
+
+    .HomePageWrapper .iatab,.HomePageWrapper .mfdtab {
+        bottom: 50px;
+        width: 100px;
+        height: 85px;
+        animation: none
+    }
+
+    .HomePageWrapper .mfdtab {
+        right: 193px
+    }
+
+    .HomePageWrapper .sttab {
+        right: 180px;
+        top: 35px;
+        width: 105px;
+        height: 90px;
+        animation: none
+    }
+
+    .CommonBannerTabs>p>span,.HomePageWrapper .CommonBannerTabs>span {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .HomePageWrapper .BannerSphereWrapper {
+        height: 300px
+    }
+
+    .HomePageWrapper .SphereTabsWrapper,.HomePageWrapper .sphere1 {
+        width: 300px;
+        height: 300px;
+        margin-left: -150px
+    }
+
+    .HomePageWrapper .CommonBannerTabs {
+        padding: 0 0 0 10px
+    }
+
+    .GetQuoteWrapper form>button,.GetQuoteWrapper form>input[type=text] {
+        font-size: 15px
+    }
+
+    .BottomFooter>span {
+        font-size: 13px
+    }
+
+    .BeyondWrksItem>.BeyondItemCntnt {
+        padding: 30px 0 0!important
+    }
+
+    .BeyondWrksItem.BeyondBusiness>.BeyondItemCntnt {
+        padding: 0!important;
+        flex: 1 1
+    }
+
+    .Beyondhead>h4 {
+        font-size: 50px;
+        line-height: 1em;
+        transform: translate(0)
+    }
+
+    .Beyondhead>h5 {
+        font-size: 28px
+    }
+
+    .Beyondsubhead>h4 {
+        font-size: 23px
+    }
+
+    .BeyondWrksItem>.BeyondItemCntnt>h4 {
+        font-size: 22px;
+        margin-bottom: 10px
+    }
+
+    .BeyondWrksItem>.BeyondItemCntnt>p {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    .BeyondWrksItem.BeyondBusiness {
+        margin-bottom: 0!important
+    }
+
+    .BeyondWrksItem {
+        margin: 0 0 30px!important
+    }
+
+    .BeyondBusinesswrapper {
+        padding: 30px 0
+    }
+
+    .BeyondWrksItem>.Beyonditemimg {
+        max-width: 480px
+    }
+
+    .TailorSolTradeWrap {
+        padding: 40px 0 30px
+    }
+
+    .TailorSolutionTradeHead h4 {
+        font-size: 22px;
+        line-height: 22px
+    }
+
+    .underConstructionCnt>h5 {
+        font-size: 25px;
+        line-height: 38px
+    }
+
+    .underConstructionCnt>h5>i {
+        font-size: 20px;
+        line-height: 28px;
+        padding-top: 0
+    }
+
+    .underConstructionCnt>a {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 10px 25px
+    }
+
+    .WhySIHLWrapper .CommonTitle {
+        font-size: 40px
+    }
+
+    .WhySIHLBoxContent h5 {
+        font-size: 17px
+    }
+
+    .WhySIHLBoxContent p {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .header_Login.HasSubmenu .CommonSubmenu_1 {
+        right: unset;
+        left: 50%;
+        margin-left: -190px
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .GetQuoteWrapper form {
+        max-width:320px
+    }
+
+    .GetQuoteWrapper form>button {
+        padding: 0 15px;
+        font-size: 13px;
+        flex: 1 1
+    }
+
+    .GetQuoteWrapper form>input[type=text] {
+        padding: 0 0 0 5px;
+        font-size: 14px;
+        min-width: auto;
+        font-size: 13px
+    }
+
+    .GetQuoteWrapper form>span {
+        font-size: 14px;
+        width: 40px
+    }
+
+    .WhySIHLBoxContent h5 {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .WhySIHLBoxContent p {
+        font-size: 14px;
+        line-height: 20px
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .HomePageWrapper .BannerContentWrapper>h3 {
+        font-size:19px;
+        line-height: 31px
+    }
+
+    .HomePageWrapper .BannerContentWrapper>h2>span {
+        font-size: 30px;
+        line-height: 33px
+    }
+}
+
+/*! purgecss end ignore */
+:root {
+    --bold: "barlowbold";
+    --light: "barlowlight";
+    --medium: "barlowmedium";
+    --regular: "barlowregular";
+    --semibold: "barlowsemibold";
+    --white: #fff;
+    --blue: #23455d;
+    --gray: #595959;
+    --green: #08a45c;
+    --yellow: #ca993b;
+    --darkblue: #01377d;
+    --black: #000;
+    --NewBlue: #001939;
+    --lightblue: #e1edf4
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--regular);
+    font-size: 14px;
+    color: var(--black);
+    overflow-x: hidden
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+    display: block
+}
+
+audio,canvas,progress,video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],template {
+    display: none
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none!important
+}
+
+a:active,a:hover {
+    outline: 0;
+    text-decoration: none
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b,strong {
+    font-weight: 400
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code,kbd,pre,samp {
+    font-family: var(--regular);
+    font-size: 1em
+}
+
+button,input,optgroup,select,textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button,select {
+    text-transform: none
+}
+
+button,html input[type=button],input[type=reset],input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type=checkbox],input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+optgroup {
+    font-weight: 700
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,th {
+    padding: 0
+}
+
+li,ul {
+    list-style: none
+}
+
+:focus {
+    outline: 0
+}
+
+.trans {
+    transition: all .5s ease
+}
+
+.no-gutter>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.hidden {
+    display: none
+}
+
+form {
+    margin: 0
+}
+
+.modal {
+    z-index: 9998
+}
+
+.modal-backdrop {
+    z-index: 9997
+}
+
+.swal2-container,.tooltip {
+    z-index: 9999
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none
+}
+
+::-webkit-scrollbar:vertical {
+    width: 5px
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 5px
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #192e49;
+    border-radius: 5px
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent
+}
+
+button:focus {
+    outline: none
+}
+
+.hiddeninput {
+    display: none!important
+}
+
+.shimmer {
+    display: block;
+    padding: 35px 0
+}
+
+.shimmer em {
+    display: block;
+    height: 14px;
+    width: 100%;
+    margin: 0 0 10px
+}
+
+.shimmer table {
+    width: 100%
+}
+
+.shimmer th {
+    height: 40px;
+    border-style: solid;
+    border-color: var(--white);
+    border-right-width: 4px;
+    border-left-width: 4px;
+    border-bottom-width: 10px
+}
+
+.shimmer td {
+    height: 40px;
+    border: 4px solid var(--white)
+}
+
+.shimmer span {
+    height: 40px;
+    display: block;
+    border-radius: 10px
+}
+
+.shimmer .img {
+    height: 100%;
+    border-radius: 12px
+}
+
+.shimmer .box {
+    height: 200px;
+    width: 100%;
+    border-radius: 12px;
+    margin: 0 0 30px
+}
+
+.shimmer .head {
+    height: 40px
+}
+
+.shimmer .shimbg {
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimanim;
+    animation-timing-function: linear;
+    background: #ddd;
+    background: linear-gradient(90deg,#F6F6F6 8%,#F0F0F0 18%,#F6F6F6 33%);
+    background-size: 1200px 100%
+}
+
+@keyframes shimanim {
+    0% {
+        background-position: -1200px 0
+    }
+
+    to {
+        background-position: 1200px 0
+    }
+}
+
+.text-right {
+    text-align: right!important
+}
+
+.CommonLoader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    -webkit-backdrop-filter: blur(.8px);
+    backdrop-filter: blur(.8px);
+    background-color: rgb(255 255 255/50%);
+    z-index: 1
+}
+
+.CommonLoader:before {
+    content: "";
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    margin-top: -25px;
+    margin-right: -25px;
+    width: 50px;
+    padding: 8px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: var(--green);
+    --_m: conic-gradient(#0000 10%,#000),linear-gradient(#000 0 0) content-box;
+    -webkit-mask: var(--_m);
+    mask: var(--_m);
+    -webkit-mask-composite: source-out;
+    mask-composite: subtract;
+    animation: l3 1s linear infinite
+}
+
+@keyframes l3 {
+    to {
+        transform: rotate(1turn)
+    }
+}

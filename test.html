@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+   
+
+<style>
+    /* GLOBAL */
+body{
+margin:0;
+font-family:Inter, system-ui;
+background:#ffffff;
+color:#111;
+}
+   .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 24px;
+    }
+
+    /* HEADER */
+
+    header {
+        position: sticky;
+        top: 0;
+        background: #fff;
+        z-index: 1000;
+        border-bottom: 1px solid #eee;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 0;
+    }
+
+    nav a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #444;
+        font-weight: 500;
+    }
+
+    nav a:hover {
+        color: #635bff;
+    }
+
+    /* HERO */
+
+    .hero {
+        padding: 120px 0 80px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 56px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .hero p {
+        font-size: 20px;
+        color: #555;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        background: #635bff;
+        color: #fff;
+        padding: 14px 32px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    /* LOGO MARQUEE */
+
+    .logo-section {
+        overflow: hidden;
+        background: #fafafa;
+        padding: 50px 0px; 
+    }
+
+    .logo-track {
+        display: flex;
+        gap: 80px;
+        animation: marquee 25s linear infinite;
+        max-width: 1200px;overflow: hidden;
+    }
+
+    .logo-section:hover .logo-track {
+        animation-play-state: paused;
+    }
+
+    .logo-track img {
+        height: 60px;
+    }
+
+    @keyframes marquee {
+        0% {
+            transform: translateX(0)
+        }
+
+        100% {
+            transform: translateX(-50%)
+        }
+    }
+
+    /* RETOOL STYLE */
+
+    .feature {
+        padding: 100px 0;
+    }
+
+    .feature-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 80px;
+        align-items: center;
+    }
+
+    .feature h2 {
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+
+    .feature p {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+    .feature img {
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    /* STRIPE STYLE SLIDER */
+
+    .slider-section {
+        padding: 100px 0;
+        background: #f6f9fc;
+    }
+
+    .swiper-slide {
+        background: #fff;
+        padding: 40px;
+        border-radius: 14px;
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+    }
+
+    .swiper-slide:hover {
+        transform: translateY(-8px);
+    }
+
+    .swiper-slide h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .swiper-slide p {
+        color: #555;
+    }
+
+    /* 4 STEP SECTION */
+
+    .steps {
+        padding: 100px 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    .step {
+        background: #fafafa;
+        padding: 40px;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    .step h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        padding: 40px;
+        text-align: center;
+        background: #f5f5f5;
+    }
+
+    /* RESPONSIVE */
+
+    @media(max-width:900px) {
+
+        .feature-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .steps {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+        }
+
+    }
+
+    @media(max-width:600px) {
+
+        .steps {
+            grid-template-columns: 1fr;
+        }
+
+    }
+
+    .scroll-section {
+        padding: 120px 20px;
+    }
+
+    .scroll-container {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 80px;
+    }
+
+    .scroll-left {
+        display: flex;
+        flex-direction: column;
+        gap: 120px;
+    }
+
+    .step h3 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .step p {
+        color: #666;
+    }
+
+    .scroll-right {
+        position: sticky;
+        top: 120px;
+        height: 400px;
+    }
+
+    .scroll-right img {
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+    }
+
+    @media(max-width:900px) {
+
+        .scroll-container {
+            grid-template-columns: 1fr;
+        }
+
+        .scroll-right {
+            position: relative;
+            top: 0;
+        }
+
+    }
+</style>
+
+<header>
+    <div class="container">
+
+        <nav>
+
+            <div><img src="https://dummyimage.com/250x70/ddd/000&text=Logo" alt=""></div>
+
+            <div>
+                <a href="#">Product</a>
+                <a href="#">Solutions</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+            </div>
+
+        </nav>
+
+    </div>
+</header>
+
+<section class="hero container">
+
+    <h1>Lorem ipsum dolor sit, amet consectetur </h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero vel, nostrum excepturi voluptate voluptatem aspernatur? Nesciunt fugiat nihil neque unde vel odio quo error soluta quibusdam exercitationem. Sint, at laboriosam.</p>
+
+    <a class="btn" href="#">Click Me</a>
+
+</section>
+
+<section class="logo-section">
+    <div class="container">
+    <div class="logo-track">
+
+        <img src="https://dummyimage.com/120x40/ddd/000&text=Logo-1">
+        <img src="https://dummyimage.com/120x40/ddd/000&text=Logo-2">
+        <img src="https://dummyimage.com/120x40/ddd/000&text=Logo-3">
+        <img src="https://dummyimage.com/120x40/ddd/000&text=Logo-4">
+        <img src="https://dummyimage.com/120x40/ddd/000&text=Logo-5">
+
+        <img src="https://dummyimage.com/120x40/ddd/000&text=Logo-1">
+        <img src="https://dummyimage.com/120x40/ddd/000&text=Logo-2">
+        <img src="https://dummyimage.com/120x40/ddd/000&text=Logo-3">
+        <img src="https://dummyimage.com/120x40/ddd/000&text=Logo-4">
+        <img src="https://dummyimage.com/120x40/ddd/000&text=Logo-5">
+
+    </div>
+</div>
+</section>
+
+<section class="feature container">
+
+    <div class="feature-grid"> 
+        <div> 
+            <h2>Build Apps Visually</h2> 
+            <p>Connect APIs, databases and design powerful interfaces quickly.</p> 
+            <a class="btn" href="#">Learn More</a> 
+        </div> 
+        <div> 
+            <img src="https://dummyimage.com/600x400/eee/000"> 
+        </div>
+
+    </div>
+
+</section>
+
+<section class="slider-section">
+
+    <div class="container">
+
+        <div class="swiper mySwiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+
+                    <h3>Payments</h3>
+
+                    <p>Accept global payments with simple APIs.</p>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <h3>Automation</h3>
+
+                    <p>Automate internal processes and workflows.</p>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <h3>Analytics</h3>
+
+                    <p>Get insights from your data instantly.</p>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <h3>Integrations</h3>
+
+                    <p>Connect tools and services easily.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="steps container">
+
+    <div class="step">
+        <h3>Step 1</h3>
+        <p>Connect your data sources</p>
+    </div>
+
+    <div class="step">
+        <h3>Step 2</h3>
+        <p>Design the UI</p>
+    </div>
+
+    <div class="step">
+        <h3>Step 3</h3>
+        <p>Add workflows</p>
+    </div>
+
+    <div class="step">
+        <h3>Step 4</h3>
+        <p>Deploy instantly</p>
+    </div>
+
+</section>
+<section class="scroll-section">
+
+    <div class="scroll-container">
+
+        <div class="scroll-left">
+
+            <div class="step" data-img="img1">
+                <h3>Connect your database</h3>
+                <p>Link PostgreSQL, MySQL or any API.</p>
+            </div>
+
+            <div class="step" data-img="img2">
+                <h3>Design your interface</h3>
+                <p>Drag and drop UI builder.</p>
+            </div>
+
+            <div class="step" data-img="img3">
+                <h3>Add workflows</h3>
+                <p>Create automation and logic.</p>
+            </div>
+             <div class="step" data-img="img4">
+                <h3>Step 4</h3>
+                <p>Create automation and logic.</p>
+            </div>
+             <div class="step" data-img="img5">
+                <h3>Step 5</h3>
+                <p>Create automation and logic.</p>
+            </div>
+
+        </div>
+
+        <div class="scroll-right">
+
+            <img id="featureImage" src="https://dummyimage.com/600x400/eee/000.png">
+
+        </div>
+
+    </div>
+
+</section>
+<footer>
+
+    <p>© 2026 footer to be here</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<script>
+
+    var swiper = new Swiper(".mySwiper", {
+
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+
+        autoplay: {
+            delay: 2500
+        },
+
+        breakpoints: {
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 }
+        }
+
+    });
+    const steps = document.querySelectorAll(".step");
+    const image = document.getElementById("featureImage");
+
+    const images = {
+        img1: "https://dummyimage.com/600x400/eee/000.png",
+        img2: "https://dummyimage.com/600x400/red/000.png",
+        img3: "https://dummyimage.com/600x400/gray/000.png",
+        img4: "https://dummyimage.com/600x400/green/000.png",
+        img5: "https://dummyimage.com/600x400/cccccc/000.png",
+        img6: "https://dummyimage.com/600x400/red/000.png"
+    };
+
+    window.addEventListener("scroll", () => {
+
+        steps.forEach(step => {
+
+            const rect = step.getBoundingClientRect();
+
+            if (rect.top < window.innerHeight / 2 && rect.bottom > 0) {
+
+                const key = step.dataset.img;
+
+                image.src = images[key];
+
+            }
+
+        });
+
+    });
+</script>
+</body>
+</html>
